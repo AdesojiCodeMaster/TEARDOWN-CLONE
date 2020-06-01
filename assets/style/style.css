@@ -37,11 +37,13 @@ a {
     
 }
 
-form {width: 200px;
+input {
+    width: 200px;
     border: 1px solid rgb(12, 10, 10);
     background-color: rgb(80, 76, 76);
     border-radius: 10px;
     height: 50px;
+    background: url('./assets/search-solid.svg') 1%;
 }
 .search{
     width: 100px;
@@ -78,9 +80,9 @@ form {width: 200px;
 }
 
 .grid-container{
-display: grid;
-grid-template-columns: repeat(2,auto);
-grid-template-rows: repeat(2,auto);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
 }
 
 .top-left{
@@ -97,4 +99,30 @@ grid-template-rows: repeat(2,auto);
 
 .bottom-right{
     background-color: red;
+}
+
+.dnt-miss{
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+}
+.dnt-miss span {
+    border: 1px solid red;
+    background: #000000;
+    grid-column: 1;
+    color: #ffffff;
+}
+
+.red-logo{
+    width: 52px;
+    height: 52px;
+    grid-column: 2;
+}
+
+.serious{
+    border-radius: 12px;
+    border: 1px solid grey;
+    width: 154px;
+    height: 39px;
 }
