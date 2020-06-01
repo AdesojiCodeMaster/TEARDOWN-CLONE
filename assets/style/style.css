@@ -32,13 +32,20 @@ a {
     font-size: 22px;
     padding-top: 18px;
     margin-left: 30px;
-
+    justify-items: center;
     align-items: center;
     
 }
 
+form {width: 200px;
+    border: 1px solid rgb(12, 10, 10);
+    background-color: rgb(80, 76, 76);
+    border-radius: 10px;
+    height: 50px;
+}
 .search{
-    background-image: image-url('./font/img/search.svg');
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .header-list li a{
@@ -63,8 +70,31 @@ a {
     top: 6px;
 }
 .header-list li:hover{
+    padding: 15px;
+    border: 1px solid black;
     border-radius: 12px;
     background-color: rgb(49, 49, 49);
-    height: 55px;
-    width: 113px;
+    
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: repeat(2,auto);
+grid-template-rows: repeat(2,auto);
+}
+
+.top-left{
+    background-color: gray;
+}
+
+.top-right{
+    background-color: grey;
+}
+
+.bottom-left{
+    background-color: blue;
+}
+
+.bottom-right{
+    background-color: red;
 }
