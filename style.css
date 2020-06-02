@@ -19,11 +19,12 @@ a {
     height: auto;
     align-content: center;
     padding-top: 7px;
+    margin-right: 20px;
 }
 
-.header-list{
+.header-list {
     display: grid;
-    grid-template-columns: 15% 11.66% 11.66% 11.66% 11.66% 11.66% 11.66% 15%;
+    grid-template-columns: 15% 7% 7% 7% 8% 12% 12% 30%;
     grid-template-areas: logo articles guides books events membership more input;
     grid-template-rows: 1;
     list-style: none;
@@ -37,17 +38,19 @@ a {
     
 }
 
-input {
-    width: 200px;
-    border: 1px solid rgb(12, 10, 10);
-    background-color: rgb(80, 76, 76);
-    border-radius: 10px;
-    height: 50px;
-    background: url('./assets/search-solid.svg') 1%;
-}
-.search{
-    width: 100px;
-    margin-bottom: 10px;
+.search {
+    grid-column: input;
+    width: 300px;
+    padding-left: 40px;
+    border: 3px solid rgb(80, 76, 76);
+    border-radius: 12px;
+    height: 57px;
+    background: url('./assets/search-solid.svg') 1% no-repeat #ffffff;
+    background-size: 22px auto;
+    background-position-x: 0.75em;
+    background-position-y: 50%;
+    margin-right: 35px;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
 }
 
 .header-list li a{
@@ -70,13 +73,6 @@ input {
 .header-list button img {
     position: relative;
     top: 6px;
-}
-.header-list li:hover{
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: rgb(49, 49, 49);
-    
 }
 
 .grid-container{
@@ -126,3 +122,18 @@ input {
     width: 154px;
     height: 39px;
 }
+
+button:hover{
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 12px;
+    background-color: rgb(59, 59, 59);
+}
+
+
+.header-list li:hover{
+    padding: 15px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 12px;
+    background-color: rgb(49, 49, 49);
+}
+
