@@ -106,13 +106,3 @@ grid-template-rows: repeat(2,auto);
 
 
 
-svg{
-width: 61px;
-height: 61px;
-}
-
-.art-con{
-display:grid;
-grid-template-columns: repeat(3,auto);
-
-}
