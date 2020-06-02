@@ -98,3 +98,21 @@ grid-template-rows: repeat(2,auto);
 .bottom-right{
     background-color: red;
 }
+
+
+
+
+
+
+
+
+svg{
+width: 61px;
+height: 61px;
+}
+
+.art-con{
+display:grid;
+grid-template-columns: repeat(3,auto);
+
+}
