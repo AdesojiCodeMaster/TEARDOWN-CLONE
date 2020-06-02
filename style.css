@@ -56,7 +56,7 @@ a {
 .header-list li a{
     align-content: center;
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: 'mija', sans-serif;
 }
 
 .header-list button{
@@ -97,31 +97,45 @@ a {
     background-color: red;
 }
 
-.dnt-miss{
-    background: transparent;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(1, auto);
-}
-.dnt-miss span {
-    border: 1px solid red;
-    background: #000000;
-    grid-column: 1;
-    color: #ffffff;
-}
-
-.red-logo{
+.red-logo svg{
     width: 52px;
     height: 52px;
-    grid-column: 2;
+    position: relative;
+    left: 1100px;
+    top: 100px;
 }
 
 .serious{
+    height: 50px;
     border-radius: 12px;
     border: 1px solid grey;
-    width: 154px;
-    height: 39px;
+    display: inline;
+    justify-content: flex-end;
+    position: relative;
+    left: 1100px;
+    top: 100px;
+    display: inline;
+    align-content: center;
+    border: 1px solid #ffffff;
 }
+
+
+.text{
+    color: grey;
+    background-color: #ffffff;
+    width: 450px;
+    font-size: 35px;
+    font-family: 'mija',sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+    letter-spacing: -1px;
+    z-index: 11;
+    display: block; 
+}
+
 
 button:hover{
     border: 1px solid rgb(59, 59, 59);
