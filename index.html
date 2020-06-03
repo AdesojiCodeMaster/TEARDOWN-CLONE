@@ -10,7 +10,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <style>
+        @font-face {
+            font-family: ElenaInitial;
+            src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff")
+        }
+
+        @font-face {
+            font-family: Elena;
+            src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff")
+        }
+
+        @font-face {
+            font-family: Elena;
+            src: url("https://d33wubrfki0l68.cloudfront.net/151446eb4ad2f20af89f3132f66d03cc92c856f4/74612/fonts/elenawebregularitalic/elenawebregularitalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/a6275674bf99f00da2e019547d61933d074f2ae7/51beb/fonts/elenawebregularitalic/elenawebregularitalic.woff") format("woff");
+            font-style: italic
+        }
+
+        @font-face {
+            font-family: Elena;
+            src: url("https://d33wubrfki0l68.cloudfront.net/a7cc92a2d6ae8ea43370e14b53d2ce89a2b2b5ab/7cca9/fonts/elenawebbold/elenawebbold.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/c2ebb4866cc6ce6d5ffdb22b616cb3dde4274107/c6bc6/fonts/elenawebbold/elenawebbold.woff") format("woff");
+            font-weight: 700
+        }
+
+        @font-face {
+            font-family: Elena;
+            src: url("https://d33wubrfki0l68.cloudfront.net/bbc71fd1b91cc1a4ede7ea378a8bf30b9e32173e/93eeb/fonts/elenawebbolditalic/elenawebbolditalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/56129334a763b7d04f2f34cbbd3b4f68f72bb6d7/8045a/fonts/elenawebbolditalic/elenawebbolditalic.woff") format("woff");
+            font-weight: 700;
+            font-style: italic
+        }
+
+        @font-face {
+            font-family: MijaInitial;
+            src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")
+        }
+
+        @font-face {
+            font-family: Mija;
+            src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")
+        }
+
+        @font-face {
+            font-family: Mija;
+            src: url("https://d33wubrfki0l68.cloudfront.net/94691bb5497213e09480b17ef68446d2b85667e9/d58ec/fonts/mijabold/mija_bold-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/1d162cc7792bc1f04919a5a344b4082087b9e012/855b4/fonts/mijabold/mija_bold-webfont.woff") format("woff");
+            font-weight: 700
+        }
+    </style>
 </head>
 
 <body>
@@ -21,21 +67,21 @@
                 <img href="#" class="logo"
                     src="https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg"
                     alt="smash-mag image">
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Guides</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Membership</a></li>
-                <button type="button">More <span> <img src="./font/img/cat-menu.png" alt=""> </span> </button>
-
+                <li><a class="articles" href="#">Articles</a></li>
+                <li><a class="guides" href="#">Guides</a></li>
+                <li><a class="books" href="#">Books</a></li>
+                <li><a class="events" href="#">Events</a></li>
+                <li><a class="membership" href="#">Membership</a></li>
+                <button type="button">More <span> <img src="./assets/cat-menu.png" alt=""> </span>
+                </button>
                 <form action="#">
-                    <span><i class="fas fa-search"></i></span>
                     <input class="search" type="text" value="Search articles...">
                 </form>
             </ul>
 
         </nav>
     </header>
+
     <section class="four-grid">
 
 
@@ -43,12 +89,9 @@
 
             <div class="top-left">
 
-
                 <div class='top-sec'>
-                    <span>Don’t Miss These Latest Articles</span>
+                    <span class="top-left-span">Don’t Miss These Latest <br> <span class="top-span2">Articles</span> </span>
                 </div>
-
-
 
                 <ul class="top-leftimg-sec">
                     <li><img src="./assets/img/top-left-imag.jpg" alt="top-left-img"></li>
@@ -73,18 +116,16 @@
 
             <div class="top-right">
 
-                <div>
-                    <ul class="red-logo">
-                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                viewBox="0 0 24 24" enable-background="new 0 0 24 24">
-                                <g>
-                                    <path
-                                        d="m13.3 4.1c-.4-.1-.9-.1-1.3-.1-4.4.0-8 3.6-8 8s3.6 8 8 8c.4.0.9.0 1.3-.1 3.9-.6 6.7-4 6.7-7.9s-2.8-7.2-6.7-7.9zm-1.1 13.9c-.1.0-.1.0-.2.0-3.3.0-6-2.7-6-6s2.7-6 6-6c.1.0.1.0.2.0v12z">
-                                    </path>
-                                </g>
-                            </svg> </li>
-                        <li><a href="#">Seriously,red?</a></li>
-                    </ul>
+                <div class="red-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 24 24" enable-background="new 0 0 24 24">
+                        <g>
+                            <path
+                                d="m13.3 4.1c-.4-.1-.9-.1-1.3-.1-4.4.0-8 3.6-8 8s3.6 8 8 8c.4.0.9.0 1.3-.1 3.9-.6 6.7-4 6.7-7.9s-2.8-7.2-6.7-7.9zm-1.1 13.9c-.1.0-.1.0-.2.0-3.3.0-6-2.7-6-6s2.7-6 6-6c.1.0.1.0.2.0v12z">
+                            </path>
+                        </g>
+                    </svg>
+                    <li class="svg-list"><a href="#" class="svg-anch">Seriously,red?</a></li>
                 </div>
 
                 <ul class="top-rightimg-sec">
@@ -145,15 +186,761 @@
                 <span><i class="fas fa-long-arrow-alt-right"></i></span>
 
             </div>
+
+        </div>
+    </section>
+
+
+    <article class='art-con'>
+
+        <div class='art-sec'>
+            <ul>
+                <li> <a href="#"> 3 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            How To Run The Right Kind Of Research Study With The Double-Diamond Model
+                        </h2>
+                    </a>
+                </li>
+
+                <li>by<a href="#">Steve Bromley</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            This article equips you with some of the tools you will
+                            need to run high quality, reliable studies that have a
+                            real impact on design and product decisions.
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+
+        <div class='art-sec'>
+
+            <ul>
+                <li><a href="#">4 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            How To Create Better Angular Templates With Pug
+                        </h2>
+                    </a>
+                </li>
+
+                <li>by<a href="#">Zara Cooper</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            Pug is a template engine that allows you to write cleaner templates with
+                            less repetition. In this article,
+                            Zara Cooper explains what Pug is and how you can use it in your Angular app.
+                        </p>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class='art-sec'>
+
+            <ul>
+                <li><a href="#">6 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            How To Feel More Energized Even When You’re Stuck At A Desk All Day
+                        </h2>
+                    </a>
+                </li>
+                <li>by<a href="#">Suzanne Scacca</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            Without a desk, you’d end up working from wobbly
+                            tables at cafes or staring down at your lap all day — uncomfortable options,
+                            to say the least. Then again, your desk could also cause you discomfort
+                            if you sit in it the wrong way or for too …
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fas fa-long-arrow-alt-right">
+
+                        </i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </article>
+
+    <section class="try-my">
+
+        <div class="try-bkg">
+
+            <span>Our friends and supporters <i class="fas fa-long-arrow-alt-down"></i></span>
+
+
+            <div class="try-ui-cont">
+
+                <a href="#"> <img src="./assets/img/try-my-ui.png" alt="try me ui" class="try-logo"></a>
+
+                <li><a href="#" class="user-view">Get the user’s view</a></li>
+
+                <p>Remote usability testing for all interfaces, devices, and teams.</p>
+
+                <span class="trial"> FREE TRIAL</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="sing-barr-cont">
+            <a href="#"><img src="./assets/img/singing-barista-tryui.svg" alt="Singing Barrister img"
+                    class="singbar-img"></a>
+
+            <h1><a href="#">1,651 smashing members</a></h1>
+
+            <p>
+                A friendly community that keeps this website alive. With books,
+                webinars, discounts and networking — for just 1 coffee a month.
+                <a href="#">Join the family</a>
+            </p>
+
+            <a href="#" class="explore">Explore features →</a>
+            <small>Already have an account? <a href="#">Sign in!</a></small>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <article class='art-con'>
+
+        <div class='art-sec'>
+            <ul>
+                <li> <a href="#"> 6 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            Equivalent Experiences: What Are They?
+                        </h2>
+                    </a>
+                </li>
+
+                <li>by<a href="#">Eric Bailey</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            An equivalent experience is one that has been deliberately
+                            conceived of and built to be able to be used by the widest
+                            possible range of people. To create an equivalent experience,
+                            you must understand all the different ways people interact with …
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+
+        <div class='art-sec'>
+
+            <ul>
+                <li><a href="#">7 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            How To Feel More Energized Even When You’re Stuck At A Desk All Day
+                        </h2>
+                    </a>
+                </li>
+
+                <li>by<a href="#">Suzanne Scacca</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            Without a desk, you’d end up working from
+                            wobbly tables at cafes or staring down at your
+                            lap all day — uncomfortable options, to say the least.
+                            Then again, your desk could also cause you discomfort
+                            if you sit in it the wrong way or for too …
+                        </p>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class='art-sec'>
+
+            <ul>
+                <li><a href="#">7 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            Getting Started With Axios In Nuxt
+                        </h2>
+                    </a>
+                </li>
+                <li>by<a href="#">Timi Omoyeni</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            In this tutorial, we will learn how to make a
+                            request in our Nuxt.js applications using the Axios module.
+                            We will also learn how to use the
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fas fa-long-arrow-alt-right">
+
+                        </i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </article>
+
+
+    <section class="smash-tv">
+
+        <div class='art-sec2'>
+
+            <ul>
+                <li><a href="#">8 DAYS AGO</a></li>
+
+                <li>
+                    <a href="#">
+                        <h2>
+                            Building Reusable React Components Using Tailwind
+                        </h2>
+                    </a>
+                </li>
+                <li>by<a href="#">Tilo Mitra</a></li>
+
+                <li>
+                    <a href="#">
+                        <p>
+                            Tailwind is a popular utility-first CSS framework
+                            that provides low-level class names to web developers.
+                            In this article, we’ll explore ways to build reusable
+                            React components using Tailwind.
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="smashtv-cont">
+            <a href="#"><img src="./assets/img/smashing-tv-img.svg" alt="Smashing tv img" class="smashtv-img"></a>
+
+            <h1><a href="#">New on Smashing TV</a></h1>
+
+            <p>
+                A channel where seasoned developers show how they design,
+                build, work and play. Coming up next:
+                <a href="#">Inspired Design Decisions With Giovanni Pintori</a>
+            </p>
+
+            <a href="#" class="explore">See all upcoming episodes →</a>
+            <small>Already have an account? <a href="#">Sign in!</a></small>
+        </div>
+
+    </section>
+
+    <div class="see-all">
+
+        <a href="#"> See All Latest Articles<i class="fas fa-long-arrow-alt-right"></i></a>
+
+    </div>
+
+
+    <article class="ship-now">
+
+        <span>June 2020 • Shipping Now</span>
+
+        <h1><a href="#">Meet “Click!”: Encourage Clicks <br> Without Shady Tricks</a></h1>
+
+        <p>
+            Our new book on how to <strong>boost business KPIs</strong>
+            , build trust and address doubts effectively — without
+            alienating people along the way. By Paul Boag.
+        </p>
+
+        <a href="#"> Jump to table of contents →</a>
+
+        <a href="#"><img src="./assets/img/click__homepage-illustration.svg" alt="click image" class="click-hand"> </a>
+
+    </article>
+
+
+    <article class="bell">
+
+        <a href="#"> <img src="./assets/img/andy-bell-opt.png" alt="Andy Bell Photo"></a>
+
+        <div class="bell-story">
+            <h4>Person Of The Week</h4>
+            <p>
+                Andy Bell has worked in the design and web
+                industries for well over a decade — on large projects
+                for large organizations just like for small startups,
+                always with a focus on design, front-end development,
+                accessibility, and progressive enhancement. Andy loves
+                to share his knowledge with the community and does so
+                by making tutorials and courses for <a href="#">Piccalilli</a> and
+                co-authoring <a href="#">Every Layout</a>. You can follow along on his
+                <a href="">blog</a> or on Twitter where he’s known as <a href="#">@hankchizljaw</a>.
+                Thank you for sharing and caring, dear Andy!
+            </p>
+
+        </div>
+
+    </article>
+
+
+    <article class="two-col-three-row">
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/sara-soueidan-100px-opt.png" alt="sara-soueidan-image"
+                    class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Sara Soueidan</a><span>wrote</span></span>
+                <h1><a href="#">Style Settings With CSS Variables</a></h1>
+
+                <p>
+                    <time>June 2, 2020 —</time>
+                    Sara Soueidan shares her favorite two ways
+                    to <a href="#"> use CSS Variables to organize and maintain
+                        styles</a> and create more portable patterns.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/shan-huang-opt.png" alt="Shan-Huang-image" class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Shan Huang</a><span>wrote</span></span>
+                <h1><a href="#">Pose Animator</a></h1>
+
+                <p>
+                    <time>May 29, 2020 —</time>
+                    The web animation tool <a href="#"> Pose Animator </a>
+                    brings SVG illustrations to life with
+                    real-time human perception TensorFlow.js models.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/mark-erikson-opt.png" alt="mark-erikson-image" class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Mark Erikson</a><span>wrote</span></span>
+                <h1><a href="#">React Rendering Behavior</a></h1>
+
+                <p>
+                    <time>May 28, 2020 —</time>
+
+                    There’s often a lot of confusion over when, why,
+                    and how React will re-render components.
+                    Mark Erikson wrote a <a href="#">guide</a>
+                    on React rendering behavior.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/sam-goree-opt.png" alt="sam-goree-image" class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Sam Goree</a><span>wrote</span></span>
+                <h1><a href="#">Websites Do All Look The Same</a></h1>
+
+                <p>
+                    <time>May 27, 2020 —</time>
+                    Is there any truth to the notion that websites
+                    all look the same? Yes. As a <a href="#">study across 10,000
+                        websites</a> confirms, web design really
+                    has become more uniform over time.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/joshua-levy-opt.png" alt="Joshua-levy-image" class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Joshua Levy</a><span>wrote</span></span>
+                <h1><a href="#">The Art Of Command Line</a></h1>
+
+                <p>
+                    <time>May 26, 2020 —</time>
+                    Fluency on the command line improves your
+                    flexibility and productivity. To help you
+                    master the art, Joshua Levy collects useful
+                    <a href="#">notes and tips on using the command line.</a>
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="each-grid">
+
+            <a href="#"><img src="./assets/img/ivan-akulov-opt.png" alt="Ivan-akulov-image" class="mark-img"></a>
+
+            <div class="img-paragra">
+                <span><a href="#">Ivan Akulov</a><span>wrote</span></span>
+                <h1><a href="#">Analyzing Notion’s App Performance</a></h1>
+
+                <p>
+                    <time>May 25, 2020 —</time>
+                    Ivan Akulov wrote a great case study that
+                    <a href="#"> analyzes Notion’s app performance</a> and what
+                    could be done to improve it.
+                </p>
+
+            </div>
+
+        </div>
+
+    </article>
+
+    <div class="twitter">
+        <a href="#">More links on Twitter <i class="fas fa-long-arrow-alt-right"></i></a>
+
+    </div>
+
+    <article class="design-sys">
+
+        <div class="design-div">
+            <span>Featured Smashing Book</span>
+
+            <h2><a href="#">Design Systems</a></h2>
+            <p>
+                Meet <strong>Design Systems</strong>, a recent Smashing book in which
+                Alla Kholmatova explores how to set up an <strong>effective
+                    design system</strong> to create great digital products.
+                With common traps, gotchas and lessons learned.
+            </p>
+            <a href="#">Jump to table of contents ↬</a>
+        </div>
+
+        <a href="#"> <img src="./assets/img/design-systems-hardcover-book.png" alt="design system book"
+                class="design-img">
+        </a>
+    </article>
+
+
+
+
+
+
+    <article class='art-con'>
+
+        <div class='art-sec3'>
+
+            <small>Guides</small>
+
+            <h2>New Front-End Challenges To Master</h2>
+
+            <ul class="front-end">
+                <li><a href="#">CSS Grid Layout</a></li>
+                <li><a href="#">Pattern Library</a></li>
+                <li><a href="#">Progressive Web Apps</a></li>
+                <li><a href="#">Switching to HTTPS</a></li>
+                <li><a href="#">HTTP/2 Guidelines</a></li>
+                <li><a href="#">React & Vue.js</a></li>
+                <li><a href="#">Redux For Designers</a></li>
+                <li><a href="#">Vue Components</a></li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class='art-sec3'>
+
+            <small>Guides</small>
+
+            <h2>Performance Optimization & Strategy</h2>
+
+            <ul class="perf-opt">
+                <li><a href="#">Quick Performance Wins</a></li>
+                <li><a href="#">Building For Performance</a></li>
+                <li><a href="#">Front-End Optimization</a></li>
+                <li><a href="#">Back-End Optimization</a></li>
+                <li><a href="#">Better Compression</a></li>
+                <li><a href="#">Progressive Web Apps</a></li>
+                <li><a href="#">Perceived Performance</a></li>
+
+            </ul>
+
+
+        </div>
+
+        <div class='art-sec3'>
+            <small>Guides</small>
+
+            <h2>Improving Workflow & Data Protection</h2>
+
+            <ul class="front-end">
+                <li><a href="#">GDPR For Developers</a></li>
+                <li><a href="#">Privacy Framework</a></li>
+                <li><a href="#">Estimating Time</a></li>
+                <li><a href="#">Dealing With Irrational Clients</a></li>
+                <li><a href="#">Getting Deliverables Right</a></li>
+                <li><a href="#">Meeting Deadlines</a></li>
+                <li><a href="#">Convincing Clients</a></li>
+                <li><a href="#">Invoicing Clients</a></li>
+            </ul>
+
+
+        </div>
+    </article>
+
+
+
+
+    <section class="smash-news">
+
+        <div class='news-sec'>
+            <small>Guides</small>
+
+            <h2>Design Patterns & Checklists</h2>
+
+            <ul class="news-list">
+                <li><a href="#">Responsive Art-Direction</a></li>
+                <li><a href="#">Perfect Configurator</a></li>
+                <li><a href="#">Perfect Web Form</a></li>
+                <li><a href="#">Perfect Accordion</a></li>
+                <li><a href="#">Perfect Date Picker</a></li>
+                <li><a href="#">Perfect Slider</a></li>
+                <li><a href="#">Perfect Comparison Table</a></li>
+                <li><a href="#">Perfect Infinite Scroll</a></li>
+                <li><a href="#">Perfect Carousel</a></li>
+                <li><a href="#">Privacy UX</a></li>
+            </ul>
+        </div>
+
+        <div class="news-letter-cont">
+            <h2><a href="#">Smashing Newsletter</a></h2>
+
+            <p>
+                Imagine you wrote a beautiful song and nobody discovered it.
+                That would make any cat sad. Don't let that happen!
+            </p>
+            <a href="#"><img src="assets/img/new-letter-img.svg" alt="Newsletter image" class="news-letter-img"></a>
+
+            <form action="#" class="newslet-form">
+                <fieldset>
+                    <a href="#">Your(smashing)email</a>
+                    <input type="email" class="news-mail">
+                </fieldset>
+                <button type="submit">Subscribe <span class="arrow-span">→</span></button>
+            </form>
+            <small>
+                Front-end, design and UX. Sent 2× a month.
+                You can always unsubscribe with just one click.
+            </small>
+
         </div>
     </section>
 
 
 
-    
-    
-    
-    
+
+    <div class="see-all">
+
+        <a href="#"> SEE ALL ARTICLES<i class="fas fa-long-arrow-alt-right"></i></a>
+
+    </div>
+
+
+
+    <footer class="footer-main">
+     <h4>Browse All Smashing Magazine Topics</h4>
+
+    <div class="footer-cont">
+        
+    <ul class="footer-list1">
+      <li><a href="#">Accessibility</a></li>
+      <li><a href="#">Android</a></li>
+      <li><a href="#">Animation</a></li>
+      <li><a href="#">Apps</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">Design</a></li>
+      <li><a href="#">Design Patterns</a></li>
+      <li><a href="#">Design Systems</a></li>
+      <li><a href="#">E-Commerce</a></li>
+    </ul>
+
+    <ul class="footer-list2">
+            <li><a href="#">Freebies</a></li>
+            <li><a href="#">Graphics</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Illustrator</a></li>
+            <li><a href="#">Inspiration</a></li>
+            <li><a href="#">iOS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Pattern Libraries</a></li>
+            <li><a href="#">Performance</a></li>
+          </ul>
+
+
+
+          <ul class="footer-list1">
+                <li><a href="#">Photoshop</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Responsive Web Design</a></li>
+                <li><a href="#">Service Workers</a></li>
+                <li><a href="#">Sketch</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">UI</a></li>
+                <li><a href="#">Usability</a></li>
+              </ul>
+
+
+
+              <ul class="footer-list3">
+                    <li><a href="#">User Experience</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Workflow</a></li>
+                   </ul>
+                </div>
+
+
+<div class="footer-last-div">
+    <img src="./assets/img/cartoon-bird.jpeg" alt="cartoon-bird" class="cartoon-bird">
+
+    <div class="footer-img-div">
+        
+        <div class="footer-img-parag">
+         <p>With a commitment to quality content for the design community.</p>
+         <p> Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
+         <p> Smashing is proudly running on <a href="#"> Netlify.</a></p>
+         <p>Fonts by <a href="#">Latinotype.</a></p>
+       </div>
+
+        <div class="footer-bottom">
+            <ul class="footer-bot-list1">
+            <li>✎<a href="#"> Write for us</a></li>
+           <li><a href="#">Contact us</a></li>
+           <li><a href="#">About us (Impressum)</a></li>
+            <li><a href="#">Privacy policy</a></li>
+           </ul>
+
+           <ul class="footer-bot-list2">
+                <li><a href="#">Membership login</a></li>
+               <li><a href="#">Delivery times</a></li>
+               <li><a href="#">Advertise</a></li>
+                
+                </ul>
+            </div>
+      </div>
+      <img src="assets/img/cartoon-dog.png" alt="cartoon-dog image" class="cartoon-dog">
+</div>
+
+
+    </footer>
+
+
+
+
 
 </body>
 
