@@ -12,7 +12,7 @@ It's a greyscale page project
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/AdesojiCodeMaster/TEARDOWN-CLONE/08e4f1a2715747fbafd37102a7e4d8e06db3a451/index.html)
+[Live Demo Link](https://rawcdn.githack.com/AdesojiCodeMaster/TEARDOWN-CLONE/59079246344f68930be3d3e0cdc923d82ad6a0b2/index.html)
 
 
 
