@@ -697,10 +697,6 @@ button:hover{
     
 }
 
-.front-end li{
-    list-style-type: circle red;
-}
-
 .art-con{
     height: 700px;
     background: #3E3E3E;
