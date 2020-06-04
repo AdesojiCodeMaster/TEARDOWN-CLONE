@@ -2,7 +2,7 @@ Smashing Magazine Clone Page by Carlos & Adesoji
 
 It's a greyscale page project
 
-![screenshot](./smash-mag.png)
+![screenshot](./assets/img/smash-mag.png)
 
 
 ## Built With
