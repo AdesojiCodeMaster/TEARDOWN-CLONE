@@ -10,7 +10,10 @@
 body {
   font-family: 'Mija', sans-serif;
   width: 100%;
-  overflow-x: inherit;
+  height: auto;
+  background: rgb(66, 63, 63);
+  background-attachment: fixed;
+  
 }
 
 
@@ -31,11 +34,12 @@ small {
 
 .header-nav {
   background: #525151;
-  width: 100%;
   height: 98.55px;
   align-items: center;
   position: relative;
   bottom: 20px;
+  padding-left: 30px;
+  max-width: 1254;;
 }
 
 .logo {
@@ -60,11 +64,11 @@ small {
 
 .search {
   grid-column: input;
-  width: 250px;
+  width: 200px;
   padding-left: 40px;
   border: 3px solid rgb(80, 76, 76);
   border-radius: 12px;
-  height: 57px;
+  height: 45px;
   background: url('./assets/search-solid.svg') 1% no-repeat #fff;
   background-size: 22px auto;
   background-position-x: 0.75em;
@@ -92,8 +96,7 @@ small {
   background-color: rgb(49, 49, 49);
   color: #fff;
   font-size: 22px;
-  padding-bottom: 10px;
-}
+  }
 
 .header-list img {
   position: relative;
@@ -102,17 +105,18 @@ small {
 
 .four-grid {
   margin-top: -70px;
-}
+  }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
+  width: 100%;
 }
 
 .top-left-span {
   position: absolute;
-  left: 480px;
+  left: 450px;
   top: 150px;
   font-family: sans-serif;
   font-size: 30px;
@@ -162,7 +166,7 @@ svg {
 }
 
 .red-logo {
-  left: 1000px;
+  left: 950px;
   top: 70px;
   display: flex;
   flex-direction: row;
@@ -239,12 +243,18 @@ button:hover {
 
 .smash-tv,
 .each-grid,
-.design-sys,
 .newslet-form {
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
 
+
+.design-sys {
+background: #808080;
+display: grid;
+grid-template-columns: repeat(2, auto);
+min-width: 1284px;
+}
 .try-my {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -281,7 +291,7 @@ button:hover {
 .news-letter-cont {
   display: grid;
   grid-template-rows: repeat(5, auto);
-  background-color: #3e3e3e;
+  background-color:#2c2828;
 }
 
 .letter-cont {
@@ -345,12 +355,14 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(3, auto);
-  height: 1000px;
-}
+  height: auto;
+  min-width: 1284px;;
+
+  }
 
 .mark-img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 10px;
 }
 
@@ -359,7 +371,7 @@ button:hover {
   grid-template-rows: repeat(4, auto);
   background: #808080;
   height: 350px;
-  width: 1284px;
+  width: 100%;
   }
 
 .try-bkg {
@@ -368,7 +380,7 @@ button:hover {
 }
 
 .try-ui-cont {
-  background: #292828;
+  background: #3d3a3a;
   margin: 80px 30px 30px 30px;
   border-radius: 12px;
   padding: 20px;
@@ -397,13 +409,18 @@ button:hover {
 
 .sing-barr-cont {
   width: fit-content;
-  background-color: #303030;
+  background-color: #3d3a3a;
   padding: 35px;
 }
 
 .grid-container span {
   position: relative;
   font-size: 20px;
+}
+
+.top-header {
+
+  width: 100%;
 }
 
 .top-height {
@@ -441,7 +458,17 @@ button:hover {
 .paragraph {
   padding-top: 16px;
   color: #fff;
+  line-height: 30px;
 }
+
+#diff1 {
+  background-color: #494949;
+}
+
+#diff3 {
+  background-color: #2c2a2a;
+}
+
 
 .paragraph1 {
   font-size: 35px;
@@ -560,7 +587,7 @@ button:hover {
   color: white;
   height: 200px;
   text-align: center;
-}
+  }
 
 .ship-now img {
   margin-bottom: 40px;
@@ -596,6 +623,10 @@ button:hover {
   height: 180px;
 }
 
+.footer-last-div {
+  background-color:rgb(8, 4, 4);
+}
+
 .ship-now p {
   text-align: center;
   color: #fff;
@@ -627,8 +658,9 @@ button:hover {
 .bell {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  background: #1d1d1d;
+  background: #3a3939;
   height: 340px;
+  min-width: 1284px;
 }
 
 .bell img {
@@ -649,56 +681,65 @@ button:hover {
 }
 
 .each-grid h1 {
-  position: relative;
   font-size: 25px;
-  left: 110px;
   bottom: 50px;
   font-family: 'Mija', sans-serif;
 }
 
 .img-paragra {
-  background: #1d1d1d;
+  background:#1d1d1d;
   text-align: left;
-  padding: 40px;
   color: #fff;
+  padding: 0 20px 20px 20px;
 }
 
-.img-paragrap img {
-  width: 100px;
+.img-paragrap {
+display: grid;
+grid-template-columns: repeat(2,auto);
+}
+
+.img-paragra h1 { 
+  padding-top: 20px;
+  color: #3e3e3e;
+  }
+
+  .name-line { 
+    text-decoration-line: underline;
+    }
+
+  .img-paragra p { 
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    }
+
+.each-grid img {
+  width: 70px;
   height: auto;
   border: 2px solid #5b5b5b;
 }
 
-.img-paragrap a {
-  position: relative;
-  bottom: 40px;
-}
 
-.img-paragrap span {
-  position: relative;
-  bottom: 40px;
-  color: #fff;
-}
+
+
 
 .twitter {
   position: relative;
-  background: #1d1d1d;
+  background: #353434;
   height: 170px;
   text-decoration: underline #fff;
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
   padding-top: 140px;
+  min-width: 1284px;
 }
 
-.design-sys {
-  background: #1d1d1d;
-}
-
+ 
 
 .design-img {
   position: relative;
-  left: 900px;
+  left: 800px;
   bottom: 415px;
   transform: rotate(345deg);
   width: 250px;
@@ -739,9 +780,10 @@ button:hover {
   background: #3e3e3e;
   padding: 40px;
   line-height: 30px;
+  
 }
 
-.art-con a {
+.author-name {
 text-decoration-line: underline;
 
 }
@@ -758,7 +800,7 @@ i {
   position: relative;
 }
 .news-sec {
-  background: #3e3e3e;
+  background: #2c2828;
   padding: 40px 40px 10px 40px;
 }
 
@@ -787,6 +829,7 @@ i {
   display: grid;
   grid-template-columns: repeat(2, auto);
   background: rgb(36, 35, 35);
+  min-width: 1284px;
 }
 
 .news-list {
@@ -799,9 +842,9 @@ i {
 }
 
 .footer-main {
-  height: 700px;
+  height: 100%;
   background: #1d1d1d;
-}
+  }
 
 .footer-main h3 {
   text-align: center;
@@ -827,7 +870,7 @@ i {
 .footer-cont {
   padding: 30px 60px 100px 60px;
   text-decoration: underline gray;
-}
+ }
 
 .footer-img-parag {
   display: grid;
