@@ -1,24 +1,20 @@
-
-
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Mija', sans-serif;
-  width: 100%;
-  height: auto;
-  background: rgb(66, 63, 63);
   background-attachment: fixed;
+  background: rgb(66, 63, 63);
+  font-family: 'Mija', sans-serif;
+  height: auto;
+  width: 100%;
 }
 
 
 a {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -26,39 +22,39 @@ li {
 }
 
 small {
-  font-size: 12px;
   color: #fff;
   font-family: 'Mija', sans-serif;
+  font-size: 12px;
 }
 
 .header-nav {
-  background: #525151;
-  height: 98.55px;
   align-items: center;
-  position: relative;
+  background: #525151;
   bottom: 20px;
+  height: 98.55px;
+  max-width: 1254;
   padding-left: 30px;
-  max-width: 1254;;
+  position: relative;
 }
 
 .logo {
-  width: 100%;
-  height: auto;
   align-content: center;
-  padding-top: 7px;
+  height: auto;
   margin-right: 20px;
+  padding-top: 7px;
+  width: 100%;
 }
 
 .header-list {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 15% 7% 7% 7% 8% 12% 12% 26%;
-  list-style: none;
-  color: #000;
-  font-size: 22px;
-  padding-top: 18px;
-  justify-items: center;
   align-items: center;
+  color: #000;
+  display: grid;
+  font-size: 22px;
+  grid-template-columns: 15% 7% 7% 7% 8% 12% 12% 26%;
+  justify-items: center;
+  list-style: none;
+  padding-top: 18px;
+  width: 100%;
 }
 
 .search {
