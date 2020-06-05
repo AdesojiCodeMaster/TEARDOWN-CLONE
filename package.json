@@ -1,0 +1,27 @@
+{
+  "name": "teardown-clone",
+  "version": "1.0.0",
+  "description": "Grayscaling of web page for design",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdesojiCodeMaster/TEARDOWN-CLONE.git"
+  },
+  "author": "Adesoji Adewumi and Carlos Robles.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdesojiCodeMaster/TEARDOWN-CLONE/issues"
+  },
+  "homepage": "https://github.com/AdesojiCodeMaster/TEARDOWN-CLONE#readme",
+  "devDependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "stylint": "^2.0.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "heatmap"
+  ]
+}
