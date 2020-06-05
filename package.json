@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/AdesojiCodeMaster/TEARDOWN-CLONE#readme",
   "devDependencies": {
-    "stylelint-config-recommended": "^3.0.0"
-  }
+    "stylelint-config-recommended": "^3.0.0",
+    "stylint": "^2.0.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "heatmap"
+  ]
 }
