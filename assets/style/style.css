@@ -5,11 +5,12 @@
 
 body {
   background-attachment: fixed;
-  background: rgb(66, 63, 63);
+  background-color: rgb(66, 63, 63);
   font-family: 'Mija', sans-serif;
   height: auto;
   width: 100%;
 }
+
 a {
   color: #fff;
   text-decoration: none;
@@ -89,7 +90,7 @@ small {
   background-color: rgb(49, 49, 49);
   color: #fff;
   font-size: 22px;
-  }
+}
 
 .header-list img {
   position: relative;
@@ -98,7 +99,7 @@ small {
 
 .four-grid {
   margin-top: -70px;
-  }
+}
 
 .grid-container {
   display: grid;
@@ -205,6 +206,10 @@ svg {
   text-decoration: underline;
 }
 
+footer-cont a {
+  font-size: 20px;
+}
+
 .see-all a {
   position: relative;
   top: 100px;
@@ -232,8 +237,8 @@ button:hover {
 .footer-bot-list2 {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  width: 350px;
   padding: 10px 10px 10px 70px;
+  width: 350px;
 }
 
 .fas.fa-long-arrow-alt-right.fa-2x {
@@ -469,7 +474,6 @@ button:hover {
   background-color: #2c2a2a;
 }
 
-
 .paragraph1 {
   font-size: 35px;
   padding-right: 20px;
@@ -534,11 +538,10 @@ button:hover {
   left: 30px;
 }
 
- 
 .smash-txt {
-  text-align: center;
   font-size: 35px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .smash-p {
@@ -618,7 +621,7 @@ button:hover {
 }
 
 .footer-last-div {
-  background-color:rgb(8, 4, 4);
+  background-color: rgb(8, 4, 4);
 }
 
 .ship-now p {
@@ -681,7 +684,7 @@ button:hover {
 }
 
 .img-paragra {
-  background:#1d1d1d;
+  background: #1d1d1d;
   text-align: left;
   color: #fff;
   padding: 0 20px 20px 20px;
@@ -689,7 +692,7 @@ button:hover {
 
 .img-paragrap {
   display: grid;
-  grid-template-columns: repeat(2,auto);
+  grid-template-columns: repeat(2, auto);
 }
 
 .img-paragra h1 { 
@@ -701,7 +704,7 @@ button:hover {
   text-decoration-line: underline;
 }
 
-.img-paragra p { 
+.img-paragra p {
   font-family: sans-serif;
   font-size: 18px;
   padding-top: 20px;
@@ -767,10 +770,11 @@ button:hover {
   height: 700px;
   background: #3e3e3e;
   padding: 40px;
-  line-height: 30px;}
+  line-height: 30px;
+}
 
 .author-name {
-text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .art-sec3 h2 {
@@ -784,6 +788,7 @@ text-decoration-line: underline;
 i {
   position: relative;
 }
+
 .news-sec {
   background: #2c2828;
   padding: 40px 40px 10px 40px;
@@ -829,7 +834,7 @@ i {
 .footer-main {
   height: 100%;
   background: #1d1d1d;
-  }
+}
 
 .footer-main h3 {
   text-align: center;
@@ -848,14 +853,10 @@ i {
   list-style-type: disc;
 }
 
-.footer-cont a {
-  font-size: 20px;
-}
-
 .footer-cont {
   padding: 30px 60px 100px 60px;
   text-decoration: underline gray;
- }
+}
 
 .footer-img-parag {
   color: #fff;
