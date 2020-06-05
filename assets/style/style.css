@@ -225,7 +225,8 @@ button:hover {
   background-color: rgb(49, 49, 49);
 }
 
-.art-con, .footer-last-div {
+.art-con,
+.footer-last-div {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
@@ -695,10 +696,6 @@ button:hover {
   color: #3e3e3e;
 }
 
-.name-line { 
-  text-decoration-line: underline; 
-}
-
 .img-paragra p {
   font-family: sans-serif;
   font-size: 18px;
@@ -768,8 +765,9 @@ button:hover {
   line-height: 30px;
 }
 
-.author-name {
-  text-decoration-line: underline;
+.author-name,
+.name-line {
+  text-decoration: underline;
 }
 
 .art-sec3 h2 {
