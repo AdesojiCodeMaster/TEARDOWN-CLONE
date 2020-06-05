@@ -225,8 +225,7 @@ button:hover {
   background-color: rgb(49, 49, 49);
 }
 
-.art-con, 
-.footer-last-div {
+.art-con, .footer-last-div {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
