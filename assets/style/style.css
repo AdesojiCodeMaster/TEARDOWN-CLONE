@@ -169,6 +169,10 @@ svg {
   position: relative;
 }
 
+.footer-cont a {
+  font-size: 20px;
+}
+
 .serious {
   border-radius: 12px;
   display: inline;
@@ -206,10 +210,6 @@ svg {
   text-decoration: underline;
 }
 
-footer-cont a {
-  font-size: 20px;
-}
-
 .see-all a {
   position: relative;
   top: 100px;
@@ -229,7 +229,8 @@ button:hover {
   background-color: rgb(49, 49, 49);
 }
 
-.art-con, .footer-last-div {
+.art-con, 
+.footer-last-div {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
@@ -579,7 +580,6 @@ button:hover {
   background-color: blanchedalmond;
 }
 
-
 .smash-tv small {
   position: relative;
   left: 260px;
@@ -695,13 +695,13 @@ button:hover {
   grid-template-columns: repeat(2, auto);
 }
 
-.img-paragra h1 { 
+.img-paragra h1 {
   padding-top: 20px;
   color: #3e3e3e;
 }
 
 .name-line { 
-  text-decoration-line: underline;
+  text-decoration-line: underline; 
 }
 
 .img-paragra p {
