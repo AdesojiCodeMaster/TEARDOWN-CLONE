@@ -31,7 +31,6 @@ small {
   background: #525151;
   bottom: 20px;
   height: 98.55px;
-  max-width: 1254;
   padding-left: 30px;
   position: relative;
 }
@@ -212,17 +211,15 @@ svg {
   text-decoration: underline;
 }
 
-button:hover {
-  border: 1px solid rgb(59, 59, 59);
+button:hover,
+.header-list a:hover {
+  background-color: #3b3b3b;
   border-radius: 12px;
-  background-color: rgb(59, 59, 59);
+  border: 1px solid rgb(65, 60, 60);
 }
 
 .header-list a:hover {
   padding: 10px;
-  border: 1px solid rgb(49, 49, 49);
-  border-radius: 12px;
-  background-color: rgb(49, 49, 49);
 }
 
 .art-con,
