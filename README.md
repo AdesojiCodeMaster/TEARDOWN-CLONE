@@ -28,7 +28,7 @@ It's a greyscale page project
 
 - Github: [@AdesojiCodeMaster](https://github.com/)
 - Twitter: [@CodeMas22665735](https://twitter.com/)
-- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi-7752aba5)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi)
 
 ## 🤝 Contributing
 
